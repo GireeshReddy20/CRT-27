@@ -1,0 +1,56 @@
+<html>
+    <head>
+        <title>Student Registration</title>
+    </head>
+    <body>
+        <style>
+            body{
+                background-image:url("logo1.JPG");
+                background-position:center;
+                background-size:30%;
+                background-repeat: no-repeat;
+            }
+            h1{
+                color:brown;
+                text-align: center;
+            }
+            h2{
+                color:blueviolet;
+                text-align: center;
+            }
+            form{
+            background-color: rgba(165, 118, 118, 0.8);
+            width: 1000px;
+            margin: auto;
+            padding: 60px;
+            border-radius: 10px;
+            }
+        </style>
+        <h1>ANNAMACHARYA UNIVERSITY</h1>
+        <h2>Student Registration Form</h2>
+        <form>
+            <label>Name:</label>
+            <input type="text"><br><br>
+            <label>Phone Number:</label>
+            <input type="number"><br><br>
+            <label>Date of Birth:</label>
+            <input type="date"><br><br>
+            <label>Hobbies:</label><br>
+             <input type="checkbox"id="sports"name="interest"value="Sports">
+            <label>Sports</label><br>
+            <input type="checkbox"id="music"name="interest"value="Music">
+            <label>Music</label><br>
+            <input type="checkbox"id="reading"name="interest"value="Reading">
+            <label>Reading</label><br><br>
+            <label>Gender:</label><br>
+            <input type="radio"id="male"name="gender"value="Male">
+            <label>Male</label><br>
+             <input type="radio"id="female"name="gender"value="Female">
+            <label>Female</label><br><br>
+            <label>Address:</label><br>
+            <textarea rows="5"cols="50"></textarea><br><br>
+            <input type="SUBMIT"value="SUBMIT">
+            <input type="RESET"value="RESET">
+        </form>
+    </body>
+</html>
